@@ -1,0 +1,38 @@
+
+/* Dizajnimi i faqes */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+/* Titulli */
+h1 {
+    color: blue;
+    margin-top: 50px;
+}
+
+/* Kontejneri Flexbox */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+/* Dizajnimi i kutive */
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
